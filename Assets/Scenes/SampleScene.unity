@@ -557,6 +557,7 @@ GameObject:
   - component: {fileID: 1298569239}
   - component: {fileID: 1298569238}
   - component: {fileID: 1298569237}
+  - component: {fileID: 1298569241}
   m_Layer: 0
   m_Name: Bean
   m_TagString: Untagged
@@ -659,6 +660,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298569241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298569236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b641c1cbdeab0049900ce9a8295f42f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Movement
 --- !u!1 &1658026078
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +684,7 @@ GameObject:
   - component: {fileID: 1658026081}
   - component: {fileID: 1658026080}
   - component: {fileID: 1658026079}
+  - component: {fileID: 1658026083}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -771,6 +785,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658026083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658026078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6403a75d9fa0d8a4abcb447448d3f4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CheckCollision
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
