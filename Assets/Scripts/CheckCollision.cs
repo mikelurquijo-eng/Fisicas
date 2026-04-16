@@ -34,7 +34,7 @@ public class CheckCollision : MonoBehaviour
         if (collision.gameObject.name == "Bean")
         {
             Debug.Log("He dejado de chocar");
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
     }
 }
