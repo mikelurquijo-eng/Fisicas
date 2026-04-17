@@ -14,21 +14,21 @@ public class TriggerCollision : MonoBehaviour
         
     }
 
-    void OnCollisionTriggerEnter(Collision collision)
+    void OnCollisionTriggerEnter(Collider collision)
     {
         if (collision.gameObject.name == "Bean")
         {
             Debug.Log("Comienzo a chocar");
         }
     }
-    void OnCollisionTriggerStay(Collision collision)
+    void OnCollisionTriggerStay(Collider collision)
     {
         if (collision.gameObject.name == "Bean")
         {
             Debug.Log("Estoy chocando");
         }
     }
-    void OnCollisionTriggerExit(Collision collision)
+    void OnCollisionTriggerExit(Collider collision)
     {
         if (collision.gameObject.name == "Bean")
         {
